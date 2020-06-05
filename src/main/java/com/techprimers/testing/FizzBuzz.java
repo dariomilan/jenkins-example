@@ -2,7 +2,7 @@ package com.techprimers.testing;
 
 public class FizzBuzz {
 public static void main(String[] args){
-        System.out.println("Hello " +  play(args[0]) );
+        System.out.println("Hello " +  play(Integer.parseInt(args[0]) ));
     }
     
     
